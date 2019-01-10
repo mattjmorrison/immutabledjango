@@ -1,3 +1,6 @@
 from django.contrib import admin
+from sample.models.person import Person
+from sample.models.address import Address
 
-# Register your models here.
+admin.site.register(Person)
+admin.site.register(Address)

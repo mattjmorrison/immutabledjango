@@ -27,7 +27,7 @@ to "delete a row" -> not a thing - just remove the thing using that entity_id
 from datetime import timedelta
 from django.test import TestCase
 from django.utils import timezone
-from sample.models import Person
+from sample.models.person import Person
 
 
 class ImmutablePersonTests(TestCase):
